@@ -1,0 +1,28 @@
+name: build
+
+on:
+    push:
+        branches: [ main ]
+    pull_request:
+        branches: [ main ]
+    workflow_dispatch:
+
+jobs:
+    macos_build_test:
+        runs-on: macos-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Build
+          run: swift build -v
+        - name: Run tests
+          run: swift test -v
+
+    linux_build_test:
+        runs-on: ubuntu-latest
+        container: swift:5.3
+        steps:
+        - uses: actions/checkout@v2
+        - name: Build
+          run: swift build -v
+        - name: Run tests
+          run: swift test -v

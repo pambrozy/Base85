@@ -1,6 +1,6 @@
 # Base85
 
-![build](https://github.com/pambrozy/base85/workflows/build/badge.svg)
+![build](https://github.com/pambrozy/Base85/workflows/build/badge.svg)
 
 Base85 is a Swift library to convert data from Base-85 and vice versa. The API was designed to easily replace the Foundation's built-in Base-64 encoding API.
 
@@ -8,13 +8,13 @@ Base85 is a Swift library to convert data from Base-85 and vice versa. The API w
 You can install this package through Swift Package Manager. Either add this to your `Package.swift`:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/pambrozy/base85", .upToNextMajor(from: "1.0.0")),
+    .package(url: "https://github.com/pambrozy/Base85", .upToNextMajor(from: "1.0.0")),
     ...
 ],
 ```
 Or, by using Xcode:
 1. Select File &rarr; Swift Packages &rarr; Add Package Dependency...
-2. Enter package URL: `https://github.com/pambrozy/base85`
+2. Enter package URL: `https://github.com/pambrozy/Base85`
 
 ## Usage
 ### Foundation

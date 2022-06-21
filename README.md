@@ -1,5 +1,9 @@
 # Base85
 
+## ⛔️ Deprecated
+
+Please use the [Bases](https://github.com/pambrozy/Bases) Package.
+
 ![build](https://github.com/pambrozy/Base85/workflows/build/badge.svg)
 
 Base85 is a Swift library to convert data from Base-85 and vice versa. The API was designed to easily replace the Foundation's built-in Base-64 encoding API.
